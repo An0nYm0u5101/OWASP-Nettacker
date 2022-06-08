@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:22.04
 RUN apt update
 RUN apt install -y python python-pip python-dev openssl libffi-dev musl-dev make gcc git curl librtmp* libxml2-dev libxslt-dev
 WORKDIR /usr/src/owaspnettacker
