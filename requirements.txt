@@ -18,3 +18,6 @@ scapy-python3==0.26; python_version > '3'
 pyDNS==2.3.6; python_version < '3'
 scapy>=2.4.1; python_version < '3'
 shodan==1.23.1
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
+twisted>=22.10.0rc1 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
